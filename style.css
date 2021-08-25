@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  padding-bottom: 50px;
+}
+
+/* header */
+
+.header-bg {
+  background: #264653;
+}
+.nav-item {
+  padding-right: 30px;
+}
+.header-details {
+  padding: 50px 30px;
+}
+/* feature bike section style  */
+.honda-feature-gray {
+  filter: grayscale(100%);
+}
+.line {
+  display: block;
+  margin: auto;
+  align-items: center;
+
+  height: 2px;
+  width: 10%;
+  background-color: turquoise;
+}
+.purchase-btn {
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+  background-color: #e76f51;
+}
+/* card */
+.card-img {
+  width: 210px;
+  clip-path: circle();
+}
+.orange-text {
+  color: orange;
+}
